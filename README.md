@@ -1,43 +1,26 @@
-# Drone-based MOT Combining CMI and SOT 
+# DbMOT
 
 > **Drone-based Multi-Object Tracking Combining Camera Motion Information and Single Object Trakcer. (ICGNC 2024)**
 >
-> For drone-based Multi-Object Tracking (MOT), camera motion makes it challenging to maintain accurate object prediction and tracking on the 2D image plane. In this work, we propose a method that leverages camera motion information to predict object motion in the 3D space and back-project on the 2D image plane, resulting in more robust and stable data association. Furthermore, we integrate a single object tracker into our framework and use object motion prediction to guide its search region for more stable tracking. The evaluation by both simulation and real-world experiments demonstrates the superior performance of our method compared with other popular multi-object trackers. 
-
-## Tracking performance
-
-The process of compensating for the search regions in simulation (above) and real-world experiments (below). The blue box represents the original search region, while the red box represents the adjusted search region. The tracking results are shown with yellow bounding boxes containing the object identity information.
-![sregion_simulation](figs/sregion_simulation.png)
-![sregion_realworld](figs/sregion_realworld.png)
-
-
+> For **Drone-based Multi-Object Tracking (DbMOT)**, camera motion makes it challenging to maintain accurate object prediction and tracking on the 2D image plane. **DbMOT is a ROS node** which leverages **camera motion information** to predict object motion in the 3D space and back-project on the 2D image plane, resulting in more robust and stable data association. Additionally, DbMOT integrates a **single object tracker**, utilizing object motion prediction to guide its search region for enhanced tracking stability. 
 
 ## Framework
 
 ![framework](figs/framework.png)
 
+## Tracking performance
+
+The process of compensating for the search regions in simulation (above) and real-world experiments (below). The blue box represents the original search region of single object tracker, while the red box represents the adjusted search region.
+![sregion_simulation](figs/sregion_simulation.png)
+![sregion_realworld](figs/sregion_realworld.png)
+
 ## How to run
 
-```bash
-roscore
-```
+- See [INSTALL.md](docs/install.md) for details of installing required components.
+- See [EXPERIMENTS.md](docs/experiments_data.md) for how to use simulations and real-world experiments data.
+- Refer to [DETECTOR.md](docs/detector.md) for quickly usage of an off-the-sheld detector ROS node.
+- Refer to [TRACKERS.md](docs/tracker.md) for quickly usage of tracker ROS nodes.
 
-- Run the rosbag.
+## Acknowledgement and Citation
 
-```bash
-rosbag play xx.bag --pause 
-```
-
-- Run the detection node.
-
-```bash
-roslaunch yolov8_ros v8.launch view_image:=0 sub:=/rmtt_02/image_raw conf_thresh:=0.5
-```
-
-- Run the tracking node.
-
-```bash
-roslaunch dbmot_3dmm dbmot_3dmm.launch
-```
-
-- Play the bag.
+The codebase is built upon [DeepSORT](https://github.com/shaoshengsong/DeepSORT),[UCMCTrack](https://github.com/corfyi/UCMCTrack),[npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim),[YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
