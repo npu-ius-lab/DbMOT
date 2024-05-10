@@ -17,10 +17,10 @@ The process of compensating for the search regions in simulation (above) and rea
 ## How to run
 
 - See [INSTALL.md](docs/install.md) for details of installing required components.
-- Refer to [DETECTOR.md](docs/detector.md) for quickly usage of an off-the-sheld detector ROS node.
-- Refer to [TRACKERS.md](docs/tracker.md) for quickly usage of tracker ROS nodes.
+- See [DETECTOR.md](docs/detector.md) for quickly usage of an off-the-sheld detector ROS node.
+- See [TRACKERS.md](docs/tracker.md) for quickly usage of tracker ROS nodes.
 - See [EXPERIMENTS.md](docs/experiments_data.md) for usage of simulations and real-world experiments data.
 
 ## Acknowledgement and Citation
 
-The codebase is built upon [npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim), [DeepSORT](https://github.com/shaoshengsong/DeepSORT), [UCMCTrack](https://github.com/corfyi/UCMCTrack), [YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
+The codebase is built upon [npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim), [f1tenth](https://github.com/npu-ius-lab/f1tenth), [DeepSORT](https://github.com/shaoshengsong/DeepSORT), [UCMCTrack](https://github.com/corfyi/UCMCTrack), [YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
