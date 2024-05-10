@@ -1,0 +1,17 @@
+ <!-- -*- coding: utf-8 -*- -->
+<launch>
+    <arg name="exec_so"                   default="bytetrack"/>
+    <!-- <arg name="rviz"                      default="false"/> -->
+    <arg name="view_image"                default="true"/>
+    <arg name="min_hits"                  default="3"/>
+    <arg name="max_age"                   default="30"/>
+    
+    <node pkg="bytetrack"  name="bytetrack_node"  type="$(arg exec_so)"  output="screen">
+        <param name="view_image"                value="$(arg view_image)"/>
+        <param name="min_hits"                  value="$(arg min_hits)"/>
+        <param name="max_age"                   value="$(arg max_age)"/>
+    </node>
+
+    <!-- <node pkg="rviz" name="rviz" type="rviz" args="-d $(find tracking)/1217_trk.rviz" required="false" 
+        if="$(arg rviz)"/> -->
+</launch>

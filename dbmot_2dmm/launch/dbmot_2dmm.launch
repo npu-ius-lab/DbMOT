@@ -1,0 +1,15 @@
+ <!-- -*- coding: utf-8 -*- -->
+<launch>
+    <!-- demonstration param -->
+    <arg name="exec_so"                   default="dbmot_2dmm"/>
+    <!-- tracking param -->
+    <arg name="min_hits"                  default="3"/>
+    <arg name="max_age"                   default="30"/>
+    
+    <node pkg="dbmot_2dmm"  name="trackingNode"  type="$(arg exec_so)"  output="screen">
+        <param name="min_hits"                  value="$(arg min_hits)"/>
+        <param name="max_age"                   value="$(arg max_age)"/>
+
+    </node>
+
+</launch>

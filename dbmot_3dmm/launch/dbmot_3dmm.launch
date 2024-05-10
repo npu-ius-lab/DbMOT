@@ -1,0 +1,12 @@
+ <!-- -*- coding: utf-8 -*- -->
+<launch>
+    <!-- demonstration param -->
+    <arg name="exec_so"                   default="dbmot_3dmm"/>
+    <arg name="rviz"                      default="false"/>
+    
+    <node pkg="dbmot_3dmm"  name="trackingNode"  type="$(arg exec_so)"  output="screen"/>
+
+    <!-- <node pkg="rviz" name="rviz" type="rviz" args="-d $(find dbmot_3dmm)/demo.rviz" required="false" 
+        if="$(arg rviz)"/> -->
+
+</launch>

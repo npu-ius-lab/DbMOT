@@ -1,0 +1,24 @@
+ <!-- -*- coding: utf-8 -*- -->
+<launch>
+    <!-- demonstration param -->
+    <arg name="exec_so"                   default="ucmctrack"/>
+    <arg name="sim"                       default="false"/>
+    <arg name="rviz"                      default="true"/>
+    <!-- <arg name="view_image"                default="true"/>
+
+    <arg name="min_hits"                  default="3"/>
+    <arg name="max_age"                   default="30"/> -->
+    <!-- sub -->
+    <!-- <arg name="subscribe"                 default="/vrpn_client_node/rmtt_01/pose"/> -->
+    
+    <node pkg="ucmctrack"  name="trackingNode"  type="$(arg exec_so)"  output="screen">
+        <!-- <param name="view_image"                value="$(arg view_image)"/>
+        <param name="min_hits"                  value="$(arg min_hits)"/>
+        <param name="max_age"                   value="$(arg max_age)"/>
+        <param name="subscribe"                 value="$(arg subscribe)"/> -->
+
+    </node>
+
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find ucmctrack)/rviz/ucmc.rviz" required="false" 
+        if="$(arg rviz)"/>
+</launch>
