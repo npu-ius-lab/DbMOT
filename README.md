@@ -19,7 +19,7 @@ The process of compensating for the search regions in simulation (above) and rea
 - See [INSTALL.md](docs/install.md) for details of installing required components.
 - See [DETECTOR.md](docs/detector.md) for quickly usage of an off-the-sheld detector ROS node.
 - See [TRACKERS.md](docs/tracker.md) for quickly usage of tracker ROS nodes.
-- See [EXPERIMENTS.md](docs/experiments_data.md) for usage of simulations and real-world experiments data.
+- See [DATA.md](docs/experiments_data.md) for usage of simulations and real-world experiments data.
 
 ## Acknowledgement and Citation
 
