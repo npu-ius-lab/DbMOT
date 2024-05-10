@@ -1,6 +1,6 @@
 # Launch the detection node.
 
-Before running DbMOT, you need to launch a detection ROS node. You can use your own YOLOv8 detector or utilize the [yolov8_ros](https://github.com/fbh16/yolov8.git) provided by us. 
+==Before running DbMOT, you need to launch a detection ROS node.== You can use your own YOLOv8 detector or utilize the [yolov8_ros](https://github.com/fbh16/yolov8.git) provided by us. 
 
 ## Get the detection node
 

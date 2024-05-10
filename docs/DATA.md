@@ -2,6 +2,8 @@
 
 Our experimental data includes both simulation and real-world data, all stored as ROS bags.
 
+==Before running the detection node, we need to run the experimental data first.==
+
 ## Simulation
 
 > **The simulation data includes:**
