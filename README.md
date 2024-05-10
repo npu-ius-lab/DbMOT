@@ -23,4 +23,4 @@ The process of compensating for the search regions in simulation (above) and rea
 
 ## Acknowledgement and Citation
 
-The codebase is built upon [DeepSORT](https://github.com/shaoshengsong/DeepSORT), [UCMCTrack](https://github.com/corfyi/UCMCTrack),[npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim), [YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
+The codebase is built upon [npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim), [DeepSORT](https://github.com/shaoshengsong/DeepSORT), [UCMCTrack](https://github.com/corfyi/UCMCTrack), [YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
