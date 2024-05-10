@@ -17,10 +17,10 @@ The process of compensating for the search regions in simulation (above) and rea
 ## How to run
 
 - See [INSTALL.md](docs/install.md) for details of installing required components.
-- See [EXPERIMENTS.md](docs/experiments_data.md) for how to use simulations and real-world experiments data.
 - Refer to [DETECTOR.md](docs/detector.md) for quickly usage of an off-the-sheld detector ROS node.
 - Refer to [TRACKERS.md](docs/tracker.md) for quickly usage of tracker ROS nodes.
+- See [EXPERIMENTS.md](docs/experiments_data.md) for usage of simulations and real-world experiments data.
 
 ## Acknowledgement and Citation
 
-The codebase is built upon [DeepSORT](https://github.com/shaoshengsong/DeepSORT),[UCMCTrack](https://github.com/corfyi/UCMCTrack),[npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim),[YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
+The codebase is built upon [DeepSORT](https://github.com/shaoshengsong/DeepSORT), [UCMCTrack](https://github.com/corfyi/UCMCTrack),[npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim), [YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
