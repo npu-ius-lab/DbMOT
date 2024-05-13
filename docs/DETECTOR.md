@@ -1,6 +1,6 @@
 # Launch the detection node.
 
-==Before running DbMOT, you need to launch a detection ROS node.== You can use your own YOLOv8 detector or utilize the [yolov8_ros](https://github.com/fbh16/yolov8.git) provided by us. 
+==Before running DbMOT, you need to launch a detection ROS node==. You can use your own YOLOv8 detector or utilize the [yolov8_ros](https://github.com/fbh16/yolov8.git) provided by us. 
 
 ## Get the detection node
 
@@ -45,7 +45,7 @@ YOLOv8 is ready
 
 ## Warning
 
-Please note that **do not launch the detection node again **when using **simulation data**, detection information is included. You only need to subscribe to the detection topic `/yolo/bbx` and `/yolo/img` in the bag.
+Please note that **do not launch the detection node again** when using **simulation data**, detection information is included. You only need to subscribe to the detection topic `/yolo/bbx` and `/yolo/img` in the bag.
 
 The usage instructions for simulation and real-world data can be found in [EXPERIMENTS.md](docs/EXPERIMENTS.md).
 
