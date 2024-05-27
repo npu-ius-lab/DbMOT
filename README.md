@@ -1,6 +1,6 @@
 # DbMOT
 
-> **Drone-based Multi-Object Tracking Combining Camera Motion Information and Single Object Trakcer. (ICGNC 2024)**
+> **Drone-based Multi-Object Tracking Combining Camera Motion Information and Single Object Tracking. (ICGNC 2024)**
 >
 > For **Drone-based Multi-Object Tracking (DbMOT)**, camera motion makes it challenging to maintain accurate object prediction and tracking on the 2D image plane. **DbMOT is a ROS node** which leverages **camera motion information** to predict object motion in the 3D space and back-project on the 2D image plane, resulting in more robust and stable data association. Additionally, DbMOT integrates a **single object tracker**, utilizing object motion prediction to guide its search region for enhanced tracking stability. 
 
