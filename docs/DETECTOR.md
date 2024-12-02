@@ -47,7 +47,7 @@ YOLOv8 is ready
 
 Please note that **do not launch the detection node again** when using **simulation data**, detection information is included. You only need to subscribe to the detection topic `/yolo/bbx` and `/yolo/img` in the bag.
 
-The usage instructions for simulation and real-world data can be found in [EXPERIMENTS.md](docs/EXPERIMENTS.md).
+The usage instructions for simulation and real-world data can be found in [EXPERIMENTS.md](docs/DATA.md).
 
 ## Download
 
