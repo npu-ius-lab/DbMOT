@@ -31,6 +31,18 @@ The process of compensating for the search regions in simulation (above) and rea
 - See [TRACKERS.md](./docs/TRACKERS.md) for quickly usage of tracking ROS nodes.
 - See [DATA.md](./docs/DATA.md) for usage of simulations and real-world experiments data.
 
-## Acknowledgement and Citation
+## Citation
+If you publish work based on, or using, this code, we would appreciate citations to the following:
+
+@inproceedings{fang2024drone,
+  title={Drone-Based Multi-object Tracking Combining Camera Motion Information and Single Object Tracking},
+  author={Fang, Bohui and Shao, Weiyu and Zheng, Yuhang and Yang, Tao},
+  booktitle={International Conference on Guidance, Navigation and Control},
+  pages={544--553},
+  year={2024},
+  organization={Springer}
+}
+
+## Acknowledgement
 
 The codebase is built upon [npurobocourse_sim](https://github.com/npu-ius-lab/npurobocourse_sim), [f1tenth](https://github.com/npu-ius-lab/f1tenth), [DeepSORT](https://github.com/shaoshengsong/DeepSORT), [UCMCTrack](https://github.com/corfyi/UCMCTrack), [YOLOv8](https://github.com/ultralytics/ultralytics), and [CSRT-tracker-standalone](https://github.com/4ndr3aR/CSRT-tracker-standalone). We thank their wondeful works.
