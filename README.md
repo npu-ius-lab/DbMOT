@@ -34,7 +34,7 @@ The process of compensating for the search regions in simulation (above) and rea
 ## Citation
 If you publish work based on, or using, this code, we would appreciate citations to the following:
 
-    @inproceedings{yt20iros,
+    @inproceedings{fang2024drone,
         author       = {Fang, Bohui and Shao, Weiyu and Zheng, Yuhang and Yang, Tao},
         title        = {Drone-Based Multi-object Tracking Combining Camera Motion Information and Single Object Tracking},
         booktitle    = {International Conference on Guidance, Navigation and Control},
